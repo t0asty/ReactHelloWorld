@@ -2,3 +2,20 @@
   font-family: sans-serif;
   text-align: center;
 }
+
+.Card {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+}
+
+.Field {
+  display: flex;
+  flex-direction: column;
+}
+
+.CardHolder {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
